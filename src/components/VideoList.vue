@@ -1,5 +1,5 @@
 <template>
-  <ul>
+  <ul class="list-group">
     <VideoListItem 
       v-for="video in videos"
       :video="video"
@@ -12,7 +12,7 @@
 <script>
 import VideoListItem from './VideoListItem'
 
-export default {
+export default {  
   name: 'VideoList',
   components: {
     VideoListItem
