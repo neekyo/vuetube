@@ -9,19 +9,19 @@ export default {
   name: 'SearchBar',
   methods: {
     onInput(e) {
-      this.$emit('termChange', e.target.value)
-    }
-  }
-}
+      this.$emit('termChange', e.target.value);
+    },
+  },
+};
 </script>
 
 <style scoped>
-  input {
-    width: 75%
-  }
+input {
+  width: 75%;
+}
 
-  div {
-    text-align: center;
-    margin: 1.25em;
-  }
+div {
+  text-align: center;
+  margin: 1.25em;
+}
 </style>
