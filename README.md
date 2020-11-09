@@ -6,7 +6,7 @@
     </h1>
 </div>
 
-### View Here - [Heroku](https://vueetube.herokuapp.com/)
+### View Here - [Heroku](http://vuetubee.herokuapp.com/)
 
 ### Clone
 
