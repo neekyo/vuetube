@@ -30,9 +30,13 @@ export default {
 li {
   display: flex;
   cursor: pointer;
+  margin-left: 2rem;
 }
-
 li:hover {
-  background-color: #eee;
+  background-color: #40b883;
+}
+.list-group,
+.list-group-item {
+  background-color: #202020;
 }
 </style>

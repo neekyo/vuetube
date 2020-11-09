@@ -4,7 +4,7 @@
       <iframe class="embed-responsive-item" :src="videoUrl"></iframe>
     </div>
     <div class="details">
-      <h4>{{ video.snippet.title }}</h4>
+      <h4 class="green">{{ video.snippet.title }}</h4>
       <p>{{ video.snippet.description }}</p>
     </div>
   </div>
@@ -29,5 +29,8 @@ export default {
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
+}
+.green {
+  color: #40b883;
 }
 </style>

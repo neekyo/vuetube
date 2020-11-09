@@ -1,6 +1,6 @@
 <template>
   <div class="body">
-    <div class="container">
+    <div>
       <h4 class="header">
         <i class="devicon-vuejs-plain colored" />
         <span>VueTube</span>
@@ -19,6 +19,8 @@ import axios from 'axios';
 import SearchBar from './components/SearchBar';
 import VideoList from './components/VideoList';
 import VideoDetail from './components/VideoDetail';
+
+const API_KEY = 'AIzaSyBGRaNMkaxtz43Xi2DL0YT9w4m_-FoALz4';
 
 export default {
   name: 'App',
@@ -39,7 +41,7 @@ export default {
         'https://www.googleapis.com/youtube/v3/search',
         {
           params: {
-            key: process.env.VUE_APP_YOUTUBE_API_KEY,
+            key: API_KEY,
             type: 'video',
             part: 'snippet',
             q: searchTerm,
@@ -57,33 +59,18 @@ export default {
   background-color: #000;
   height: 100vh;
   color: #fff;
+  padding: 0 2rem 0 2rem;
 }
-
 .header {
   padding: 0.5rem 0 0.5rem 1rem;
   background-color: #202020;
 }
-
 .header span {
   color: #fff;
   font-size: 15px;
 }
-
 .header i {
   padding-right: 0.25rem;
   vertical-align: middle;
-}
-
-.list-group {
-  padding: 0;
-}
-
-.list-group,
-.list-group-item {
-  background-color: #202020;
-}
-
-.list-group-item hover {
-  background-color: #40b883;
 }
 </style>
