@@ -1,25 +1,25 @@
-# vid
+<div align=center>
+    <h1 align=center>
+        vuetube
+        <br>
+        <img align=center src="https://github.com/neekyo/vuetube/blob/main/src/assets/preview.png">
+    </h1>
+</div>
 
-## Project setup
-```
-npm install
+### View Here - [Heroku](https://vueetube.herokuapp.com/)
+
+### Clone
+
+- Clone this repo to your local machine using `https://github.com/neekyo/vuetube.git`
+
+### Setup
+
+- Install dependencies with npm install, then npm start and you're ready to Vue!
+
+```shell
+$ npm install
+$ npm start
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# vid-vue
+### Built With
+JS, HTML5, CSS3, Vue, Node, Axios, Heroku
